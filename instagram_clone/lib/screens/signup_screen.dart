@@ -163,7 +163,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Text('Dont\'t have an account?'),
+                    child: Text('Already have an account?'),
                     padding: EdgeInsets.symmetric(vertical: 8.0),
                   ),
                   SizedBox(
@@ -173,7 +173,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     onTap: navigateToLogin,
                     child: Container(
                       child: Text(
-                        'Sign Up',
+                        'Log in',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                       padding: EdgeInsets.symmetric(vertical: 8.0),
